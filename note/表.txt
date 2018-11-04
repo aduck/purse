@@ -1,0 +1,5 @@
+1.users用户表
+id userName passWord email avator nickName standard deadLine linkedId createAt updateAt openId
+
+2.bills账单表
+id userId money remark batch createAt updateAt

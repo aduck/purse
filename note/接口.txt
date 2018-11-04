@@ -1,0 +1,13 @@
+1.用户相关/user
+/register post {userName, passWord, email} 注册
+/login post {userName, passWord} 登录
+/edit post {nickName, avator, email, standard} 编辑资料
+/link post {id} 关联账户
+/unlink post {id} 取消关联
+/resetPassword post {oldPassWord, passWord} 修改密码
+
+2.账单相关/bill
+/submit post {money, remark, batch} 提交记录
+/get get {only} 获取记录
+/update post {money, remark, batch} 修改
+/status get 获取当前状态
